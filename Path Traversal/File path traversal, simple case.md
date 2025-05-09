@@ -1,3 +1,6 @@
+---
+share: true
+---
 # Lab: File path traversal, simple case
 
 - **Category**: Path Traversal
