@@ -44,5 +44,4 @@ Using `../` to access parent directories.
 
 `filename=/etc/passwd` does not work because the file path is interpreted as a relative path. Most web applications do not allow access to the root directory, so absolute paths like `/etc/passwd` are blocked.
 
-## Hello!
 
