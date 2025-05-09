@@ -25,11 +25,11 @@ Using `../` to access parent directories.
 ## Exploitation Steps
 
 ###### 1. Find a request that include a file path.
-![[Screenshot From 2025-05-09 18-36-36.png|Screenshot From 2025-05-09 18-36-36.png]]
+![[./01_PROJECTS/PortSwigger-Web-Security-Academy/Attachment/Screenshot From 2025-05-09 18-36-36.png|Screenshot From 2025-05-09 18-36-36.png]]
 ###### 2. Modify the file path to `../../../etc/passwd`.
-![[Screenshot From 2025-05-09 18-37-35.png|Screenshot From 2025-05-09 18-37-35.png]]
+![[./01_PROJECTS/PortSwigger-Web-Security-Academy/Attachment/Screenshot From 2025-05-09 18-37-35.png|Screenshot From 2025-05-09 18-37-35.png]]
 ###### 3. Check the response.
-![[Screenshot From 2025-05-09 18-38-40.png|Screenshot From 2025-05-09 18-38-40.png]]
+![[./01_PROJECTS/PortSwigger-Web-Security-Academy/Attachment/Screenshot From 2025-05-09 18-38-40.png|Screenshot From 2025-05-09 18-38-40.png]]
 
 
 ---
