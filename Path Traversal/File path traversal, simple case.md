@@ -1,5 +1,5 @@
 ---
-share: true
+share: false
 ---
 # Lab: File path traversal, simple case
 
@@ -24,11 +24,11 @@ Using `../` to access parent directories.
 
 ## Exploitation Steps
 
-1. Find a request that include a file path.
+###### 1. Find a request that include a file path.
 ![[Screenshot From 2025-05-09 18-36-36.png]]
-2. Modify the file path to `../../../etc/passwd`.
+###### 2. Modify the file path to `../../../etc/passwd`.
 ![[Screenshot From 2025-05-09 18-37-35.png]]
-3. Check the response.
+###### 3. Check the response.
 ![[Screenshot From 2025-05-09 18-38-40.png]]
 
 
@@ -44,5 +44,4 @@ Using `../` to access parent directories.
 
 `filename=/etc/passwd` does not work because the file path is interpreted as a relative path. Most web applications do not allow access to the root directory, so absolute paths like `/etc/passwd` are blocked.
 
-## Hello!
 
