@@ -24,7 +24,7 @@ Finding the path component in a URL to discover a web directory.
 
 ## Exploitation Steps
 
-###### 1. Access the path for administrator panel
+###### 1. Finding the path component in a URL to discover a web directory
 ![[Screenshot From 2025-05-10 15-35-12.png]]
 
 ###### 2. Delete the user `carlos`
